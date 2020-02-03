@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* show all information to div block */
+.output {
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  width: 80%;
+  height: 100%;
+}
+/*  */
+
+/* form choose */
+/*  */
+
+.choose {
+  margin: 200px auto;
+  width: 200px;
+  border: 1px solid red;
+}
+
+.choose__login {
+  border: 1px solid rebeccapurple;
+  height: 100px;
+  vertical-align: middle;
+  font-size: 60px;
+  text-align: center;
+}
+.choose__registration {
+  border: 1px solid rebeccapurple;
+  height: 100px;
+  vertical-align: middle;
+  font-size: 40px;
+  text-align: center;
+}
+
+/*  */
+
+/* form registration */
+/*  */
+
+.form__registration {
+  margin: 200px auto;
+  border: 1px solid black;
+  width: 200px;
+}
+.form__registration h1 {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.form__registration p {
+  text-align: center;
+}
+
+.form__registration__input-login,
+.form__registration__input-password,
+.form__registration__input-again {
+  display: block;
+  margin: auto;
+}
+.form__registration-button {
+  display: block;
+  margin: 10px auto;
+}
+
+.registration__error {
+  text-align: center;
+  color: red;
+  font-size: 25px;
+}
+
+/*  */
+
+/* form signin */
+/*  */
+.form__signin {
+  margin: 200px auto;
+  border: 1px solid black;
+  width: 200px;
+}
+
+.form__signin h1 {
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.form__signin p {
+  text-align: center;
+}
+
+.form__signin__input-login,
+.form__signin__input-password,
+.form__signin__input-again {
+  display: block;
+  margin: auto;
+}
+.form__signin-button {
+  display: block;
+  margin: 10px auto;
+}
+
+.signin__error {
+  text-align: center;
+  color: red;
+  font-size: 25px;
+}
+
+/*  */
+
+/* form account */
+
+.account {
+  width: 300px;
+  margin: 200px auto;
+  border: 1px solid black;
+}
+
+.account .login {
+  margin: 5px;
+  font-size: 20px;
+}
+
+.account .login em {
+  border-bottom: 1px solid black;
+}
+
+.market {
+  float: left;
+  width: 100px;
+  text-align: center;
+  background: #dbdbdb;
+  font-size: 20px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.create-trade {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  background: #dbdbdb;
+  font-size: 20px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.account h3 {
+  margin: 5px;
+}
+
+.account .items {
+  margin: 20px;
+  padding-left: 25px;
+  font-size: 20px;
+  border: 2px solid gray;
+}
+
+.account .items li {
+  margin: 10px;
+  border-bottom: 1px solid black;
+}
+
+.account__exit {
+  display: block;
+  width: 120px;
+  text-align: center;
+  background: #dbdbdb;
+  font-size: 20px;
+  border: 1px solid black;
+  margin: 10px 0 5px 5px;
+}
+
+/*  */
+
+/* form trade area */
+
+.form__trade-area {
+  width: 300px;
+  margin: 200px auto;
+  border: 2px dashed black;
+}
+
+.form__trade-area .login {
+  font-size: 20px;
+}
+
+.form__trade-area .login em {
+  letter-spacing: -1px;
+  border-bottom: 1px solid black;
+}
+
+.form__trade-area .account {
+  margin: 5px;
+  border: 1px solid black;
+  background: #dbdbdb;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.trade-area {
+  width: 200px;
+  margin: 40px auto;
+  border: 2px solid black;
+}
+
+.give {
+  border-bottom: 2px solid black;
+  font-size: 30px;
+}
+
+.receive {
+  border-bottom: 2px solid black;
+  font-size: 25px;
+}
+
+.accept {
+  height: 50px;
+  width: 100px;
+  margin: 5px;
+}
+
+.seller {
+  border-top: 1px solid black;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.trade-area_error-message {
+  font-size: 15px;
+  color: red;
+  margin: 5px;
+}
+/*  */
+
+/* form create trade */
+
+.form__create-trade {
+  margin: 200px auto;
+  width: 300px;
+  border: 2px solid black;
+}
+
+.form__create-trade p {
+  display: inline-block;
+  width: 100px;
+  margin: 5px;
+
+  font-size: 20px;
+  border-bottom: 1px solid black;
+}
+
+.form__create-trade h2 {
+  display: inline-block;
+  margin: 5px 0px 5px 80px;
+  font-size: 15px;
+}
+
+.form__create-trade .give {
+  margin: 10px;
+  border: 1px solid black;
+  width: 200px;
+  font-size: 25px;
+}
+
+.form__create-trade .receive {
+  margin: 10px;
+  border: 1px solid black;
+  width: 200px;
+  font-size: 25px;
+}
+
+.form__create-trade h3 {
+  margin: 15px;
+  font-size: 25px;
+}
+
+.form__create-trade ol {
+  margin: 15px 0px 15px 45px;
+  font-size: 20px;
+}
+
+.form__create-trade li {
+  border-bottom: 2px solid black;
+  width: 150px;
+}
+
+.create-trade__create {
+  display: inline-block;
+  background: #dbdbdb;
+  width: 100px;
+  border: 1px solid black;
+  font-size: 30px;
+  margin: 10px;
+  text-align: center;
+}
+
+.form__create-trade .account {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  background: #dbdbdb;
+  font-size: 20px;
+  border: 1px solid black;
+  margin: 0px 0px 5px 10px;
+}
+
+/*  */
